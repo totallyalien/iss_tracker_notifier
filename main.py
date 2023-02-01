@@ -47,6 +47,6 @@ while(True):
             connection.starttls()
             connection.login(user=MY_MAIL,password=PASSWORD)
             connection.sendmail(from_addr=MY_MAIL,to_addrs=TO_MAIL,msg="Subject:ALERT \n\n INTERNATIONAL SPACE STATION IS AROUND YOU !")
-
+            connection.close()
     time.sleep(Sleep_time)
 
