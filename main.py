@@ -9,6 +9,7 @@ LAT = 11.504776
 LONG = 77.238396
 MY_MAIL = "xyz@gmail.com"
 PASSWORD = "XXXXXXXX"
+TO_MAIL = "xxxxxx"
 
 parameter = {
     "lat":LAT,
